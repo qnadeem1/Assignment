@@ -1,0 +1,100 @@
+#container{
+    width:960px;
+    margin: 0px auto;
+    background:white;
+}
+
+img{
+    width:960px;
+    margin: 0px auto;
+}
+
+#left-container{
+    width:100px;
+    height:8px;
+    float:left;
+    margin: 10px auto;
+}
+
+#right-container{
+    width:835px;
+    height:8px;
+    float:right;
+    margin: 0px auto;
+}
+
+table{
+    border: 0px hidden black;
+    width:100%;
+}
+
+th{
+    border: 1px thin black;
+    background-color:#37a8bd;
+    font-weight:bold;
+    height:25px;
+    text-align:left;
+    margin-left:2px initial;
+}
+
+td{
+    border: 1px hidden black;
+    background-color:aqua;
+    height:25px;
+    margin-left: 10px auto;
+}
+
+.alttd{
+    border: 1px hidden black;
+    background-color:#e6f3f2;
+    height:25px;
+    margin-left: 10px auto;
+    vertical-align:bottom;
+}
+
+.clear{
+    background-color:white;
+}
+
+input{
+    width:300px;
+    height:25px;
+}
+
+/* for tablet devices*/
+@media screen and (max-width:959px){
+    #container{
+        width:100%;
+    }
+    img{
+        width:100%;
+    }
+    #left-container {
+        width:10%;
+    }
+
+    #right-container {
+        width:90%;
+    }
+}
+
+/* for phones*/
+@media screen and (max-width:640px){
+    #left-container {
+        width: 100%;
+    }
+
+    #right-container {
+        width:100%;
+    }
+}
+
+/* for old phones */
+@media screen and (max-width:320px){
+    #container {
+        width: 320px;
+    }
+    img{
+        width:320px;
+    }
+}

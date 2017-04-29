@@ -1,0 +1,11 @@
+{
+  "name": "Tree_Homework",
+  "version": "v0.0.0",
+  "description": "Create a tree structure",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

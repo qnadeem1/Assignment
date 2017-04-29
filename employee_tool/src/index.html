@@ -1,0 +1,139 @@
+<html>
+<head>
+	<title>App Modernization</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <form method="post" id="empForm">
+        <div id="container">
+            <img src="pics/banner.png" alt="Employee management assignment" />
+            <div id="demo"></div>
+            <table cellpadding="10" cellspacing="1" id="empRecords">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Role
+                    </th>
+                    <th>
+                        Salary
+                    </th>
+                    <th style="width:50px;">
+                        &nbsp;
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Ed Javiar
+                    </td>
+                    <td>
+                        Administrator
+                    </td>
+                    <td>
+                        $10,000
+                    </td>
+                    <td style="width:21px;">
+                        <a href="#"><img src="pics/delete.png" style="width:20px; height:20px;" alt="delete record" id="id1" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alttd">
+                        Josh Ortiz
+                    </td>
+                    <td class="alttd">
+                        Manager
+                    </td>
+                    <td class="alttd">
+                        $15,000
+                    </td>
+                    <td class="alttd" style="width:21px;">
+                        <a href="#"><img src="pics/delete.png" style="width:20px; height:20px;" alt="delete record" id="id2" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Rich Eubank
+                    </td>
+                    <td>
+                        Director
+                    </td>
+                    <td>
+                        $20,000
+                    </td>
+                    <td style="width:21px;">
+                        <a href="#"><img src="pics/delete.png" style="width:20px; height:20px;" alt="delete record" id="id3" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="alttd">
+                        Scott Chris
+                    </td>
+                    <td class="alttd">
+                        President
+                    </td>
+                    <td class="alttd">
+                        $25,000
+                    </td>
+                    <td class="alttd" style="width:21px;">
+                        <a href="#"><img src="pics/delete.png" style="width:20px; height:20px;" alt="delete record" id="id4" /></a>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <br />
+
+            <table cellpadding="10" style="border: 0px hidden white;">
+                <tr>
+                    <th>
+                        Add new employee record
+                    </th>
+                </tr>
+                <tr>
+                    <td class="clear">
+                        <div id="left-container">
+                            Name:
+                        </div>
+                        <div id="right-container">
+                            <input type="text" name="name" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clear">
+                        <div id="left-container">
+                            Role:
+                        </div>
+                        <div id="right-container">
+                            <input type="text" name="role" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clear">
+                        <div id="left-container">
+                            Salary:
+                        </div>
+                        <div id="right-container">
+                            <input type="text" name="salary" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clear">
+                        <div id="left-container">
+                            &nbsp;
+                        </div>
+                        <div id="right-container">
+                            <input type="button" id="addEmployee" value="Add Employee" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="code.js"></script>
+</body>
+</html>
